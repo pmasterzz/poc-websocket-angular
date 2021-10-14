@@ -1,0 +1,19 @@
+<form [formGroup]="form">
+  <div>
+    <label for="username">
+      UserName
+    </label>
+    <input id="username" formControlName="email" type="text" pInputText placeholder="username" />
+  </div>
+
+  <div>
+    <label for="password">
+      Password
+    </label>
+    <input id="password" type="password" formControlName="password" pInputText placeholder="username" />
+  </div>
+
+  <button type="button" pButton (click)="login()">
+    Login
+  </button>
+</form>

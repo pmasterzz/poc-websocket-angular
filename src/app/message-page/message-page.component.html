@@ -1,0 +1,17 @@
+<div class="message-container">
+  <div class="messages public">
+    <h1>Public messages</h1>
+    <p-messages key="public"></p-messages>
+  </div>
+
+  <div class="messages private">
+    <h1>Private messages</h1>
+    <p-messages key="private"></p-messages>
+  </div>
+</div>
+
+
+<input placeholder="Type your message...." [(ngModel)]="messageValue" type="text" pInputText />
+<br>
+<button pButton (click)="addPublicMessage()">Add Public Message</button>
+<button pButton (click)="addPrivateMessage()">Add Private Message</button>
