@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   pusherConfig: {
-    appKey: 'PUSHER_KEY',
+    appKey: 'PUSHER ',
     cluster: 'eu',
   },
   ablyConfig: {
